@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+   <title>SRM IST</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+   
+ </head>
+
+<body>
+	<div class="content">
+
+	  	<h2 style="padding: 25px; text-align:center;font-family: 'Montserrat', sans-serif">ADD BOOK</h2>
+
+	  	<form style="font-family: 'Slabo 27px', serif; padding-left: 200px;" id="form2" action='SaveNewBook.php' method='POST'>
+		<table valign="left" border="0" cellspacing="4" cellpadding="4">
+		<tr><td><b>Id</b></td><td><input type="text" name="id"></td></tr>
+		<tr><td><b>Title</b></td><td><input type="text" name="title"></td></tr>
+		<tr><td><b>Type</b></td><td><input type="text" name="type"></td></tr>
+		<tr><td><b>Author</b></td><td><input type="text" name="author"></td></tr>
+		<tr><td><b>Publisher</b></td><td><input type="text" name="publisher"></td></tr>
+		<tr><td><b>Description</b></td><td><input type="text" name="descr"></tr>
+		</table>
+		</form>
+		</p>
+
+		<button style="margin-left: 250px;" class="button" type="submit" form="form2" >
+			<span>ADD</span>
+		</button>
+
+	</div>
+
+</body>
+</html>
